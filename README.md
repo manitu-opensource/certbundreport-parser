@@ -56,4 +56,4 @@ The body will be returned with all relevant data be anonymized and replaced by
 	* CENSORED (original report data here) *
 	****************************************
 
-The replacement text can be optionally passed to CertBundReportParser::anonymize().
+The replacement text can be optionally passed to `CertBundReportParser::anonymize()`.
