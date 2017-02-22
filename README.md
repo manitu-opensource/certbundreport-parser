@@ -1,5 +1,5 @@
-# CERT BUND report paser
-A PHP parser for german CERT BUND report mails
+# CERT BUND report parser
+A PHP based parser for german CERT BUND report mails
 
 # Usage
 
