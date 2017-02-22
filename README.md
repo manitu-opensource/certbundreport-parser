@@ -17,7 +17,7 @@ Each element of the returned array contains one incident line from the original 
 	  [0] =>
 	  array(5) {
 	    'ASN' =>
-	    string(5) "34240"
+	    string(5) "123456789"
 	    'IP address' =>
 	    string(11) "1.2.3.4"
 	    'Timestamp (UTC)' =>
@@ -30,7 +30,7 @@ Each element of the returned array contains one incident line from the original 
 	  [1] =>
 	  array(5) {
 	    'ASN' =>
-	    string(5) "34240"
+	    string(5) "123456789"
 	    'IP address' =>
 	    string(11) "2.3.4.5"
 	    'Timestamp (UTC)' =>
