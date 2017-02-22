@@ -56,7 +56,7 @@ if ($body_anonymized === FALSE) {
 }
 ```
 
-The body will be returned with all relevant data be anonymized and replaced by
+The body will be returned with all relevant "private" data replaced by
  
 	****************************************
 	* CENSORED (original report data here) *
