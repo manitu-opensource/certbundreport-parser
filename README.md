@@ -45,8 +45,15 @@ Each element of the returned array contains one incident line from the original 
 ## Anonymizing a mail
 To anonymize a mail (e.g. for forwarding):
 
-		$body_anonymized = CertBundReportParser::anonymize( [BODYGOESHERE]);
+		$body_anonymized = CertBundReportParser::anonymize( [BODYGOESHERE] );
 		if ($body_anonymized === FALSE) {
 			return FALSE;
 		}
-    
+		
+The body will be returned with all relevant data be anonymized and replaced by
+ 
+	****************************************
+	* CENSORED (original report data here) *
+	****************************************
+
+The replacement text can be optionally passed to CertBundReportParser::anonymize().
