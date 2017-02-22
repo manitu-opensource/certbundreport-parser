@@ -3,7 +3,7 @@ A PHP based parser for german CERT BUND report mails
 
 # Usage
 
-## Parse a mail
+## Parsing mails
 To parse a mail:
 
 		$incidents = CertBundReportParser::parse( [BODYGOESHERE] );
@@ -42,7 +42,7 @@ Each element of the returned array contains one incident line from the original 
 	  }
 	}
 
-## Anonymizing a mail
+## Anonymizing mails
 To anonymize a mail (e.g. for forwarding):
 
 		$body_anonymized = CertBundReportParser::anonymize( [BODYGOESHERE] );
