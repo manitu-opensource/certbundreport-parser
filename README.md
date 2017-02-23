@@ -1,5 +1,5 @@
-# CERT BUND report parser
-A PHP based parser for german CERT BUND report mails
+# CERT-Bund report parser
+A PHP based parser for german CERT-Bund report mails
 
 # Usage
 
@@ -13,7 +13,7 @@ if ($incidents === FALSE) {
 }
 ```
 
-Each element of the returned array contains one incident line from the original mail from CERT BUND, the array keys are the columns, e.g.
+Each element of the returned array contains one incident line from the original mail from CERT-Bund, the array keys are the columns, e.g.
 
 ```php
 array(2) {
