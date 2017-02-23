@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	 * A parser for CERT BUND report mails
+	 * A parser for CERT-Bund report mails
 	 */
 	class CertBundReportParser {
 
@@ -14,7 +14,7 @@
 ";
 
 		/**
-		 * Parses a CERT BUND report mail body
+		 * Parses a CERT-Bund report mail body
 		 *
 		 * @param $body The mail body as string, headers are optional
 		 * @return The parsed mail as array, one line for each incident, FALSE in case of error
@@ -77,7 +77,7 @@
 
 
 		/**
-		 * Anonymizes a CERT BUND report mail body
+		 * Anonymizes a CERT-Bund report mail body
 		 *
 		 * @param $body The mail body as string, headers are optional
 		 * @param $body The string to be used as replacement
